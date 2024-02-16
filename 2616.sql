@@ -1,0 +1,1 @@
+select  cust.id, cust.name from customers cust where cust.id not in (select id_customers from locations) order by cust.id asc
