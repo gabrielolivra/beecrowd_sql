@@ -1,0 +1,1 @@
+select name, length(name) from people order by LENGTH(name) desc
